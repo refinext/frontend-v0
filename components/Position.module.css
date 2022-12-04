@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  margin: 1rem 0;
+  padding: 2rem;
+  padding-right: calc(2rem + 30px);
+  border: black solid 2px;
+  border-radius: 6px;
+  background-color: white;
+  max-width: 800px;
+}
+
+
+.container:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.container:after {
+  content: "→";
+  font-size: 1.5rem;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -30px;
+  background-color: #5affdb;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+.chainName {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background: lightgrey;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+
+.label {
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.value {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
+
+.protocol {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+}

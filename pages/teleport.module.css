@@ -1,0 +1,13 @@
+.title {
+  color: rgb(172, 172, 172);
+  font-family: "belida";
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.titleImg {
+  position: absolute;
+  right: 0;
+  top: -20px;
+}

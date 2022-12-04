@@ -1,0 +1,114 @@
+.container {
+  position: relative;
+  margin: 1rem auto;
+  padding: 2rem;
+  border: black solid 2px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  max-width: 800px;
+  overflow: hidden;
+  background-color: rgb(214, 220, 220);
+}
+
+.information {
+  background-color: #81dde7;
+  border: 1px solid rgb(19, 41, 40);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.numericLabel {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+
+.arrowImage {
+  transition: transform 300ms ease;
+  cursor: pointer;
+}
+
+.details[open] .arrowImage {
+  transform: rotate(180deg);
+}
+
+.details > summary {
+  list-style: none;
+}
+
+.formTitle {
+  font-size: 0.7rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 2rem;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.select {
+  padding: 16px 24px;
+  font-size: 0.9rem;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 2px solid #262626;
+}
+
+.select[disabled] {
+  cursor: not-allowed;
+  border: 2px solid #d8d8d8;
+}
+
+.button {
+  font-size: 0.9rem;
+  font-family: "Press Start 2P", cursive;
+  background-color: #38cfcc;
+  border: 2px solid rgb(19, 70, 73);
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.feeItems > li {
+  padding-left: 15px;
+  position: relative;
+  border-left: 1px solid #000;
+  padding: 9px 0;
+  list-style-type: none;
+}
+
+.feeItems > li::before {
+  position: relative;
+  top: -4px;
+  width: 15px;
+  border-bottom: 1px solid #000;
+  content: " ";
+  display: inline-block;
+}
+
+.feeItems > li:last-child {
+  height: 1px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.invisible {
+  opacity: 1;
+  border: none;
+  width: 20px;
+  height: 10px;
+}

@@ -1,0 +1,105 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  background-color: #007a80;
+  padding: 2rem;
+}
+
+.outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.outer-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.right {
+  width: 100%;
+  background-color: #031a16;
+  padding: 2rem 3rem;
+  height: 100vh;
+  overflow: scroll;
+  scroll-behavior: auto;
+}
+
+.link {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+}
+
+.logo {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.select {
+  padding: 1rem;
+  font-size: 0.7rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 2px solid black;
+  border-radius: 5rem;
+  background-color: rgb(196, 192, 192);
+}
+
+.select option {
+  padding: 0.5rem;
+  font-family: initial;
+  font-size: 1.2rem;
+}
+
+summary.select {
+  list-style: none;
+  cursor: pointer;
+}
+summary.select:hover {
+  background-color: lightgrey;
+}
+
+.dropdown {
+  position: absolute;
+  background: rgb(215, 213, 213);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.dropdown li:hover {
+  background-color: lightgrey;
+}
+
+.dropdown button {
+  all: initial;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.logo {
+  width: 100%;
+  color: black;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
